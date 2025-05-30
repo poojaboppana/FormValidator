@@ -10,19 +10,19 @@ document.getElementById("validator").addEventListener("submit", function(e){
   if(!firstname){
     errors.push("Enter first name");
   }
-  else if(!lastname){
+   if(!lastname){
     errors.push("Enter last name");
   }
-  else if(!regnum){
+  if(!regnum){
     errors.push("Enter reg Number");
   }
-  else if(!email){
+   if(!email){
     errors.push("Enter Email");
   }
-  else if(!phonenumber){
+   if(!phonenumber){
     errors.push("Enter Phone Number");
   }
-  else if(!password){
+   if(!password){
     errors.push("Enter Password");
   }
    let emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
